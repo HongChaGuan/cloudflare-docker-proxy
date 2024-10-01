@@ -17,7 +17,7 @@ const routes = {
   "ecr.drop.pub": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.drop.pub": dockerHub,
 };
 
 function routeByHosts(host) {
